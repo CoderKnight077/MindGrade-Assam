@@ -1,0 +1,41 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  color: blue;
+  font-weight: bold;
+}
+nav {
+
+  background-color: black;
+  flex-direction: row;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  /* align-self: center; */
+}
+
+
+.banner {
+
+  align-items: flex-start;
+}
+
+
+a {
+  color: rgb(241, 207, 9);
+
+  text-decoration: none;
+
+  display: block;
+
+  font-size: large;
+}
+
