@@ -183,5 +183,5 @@ text-decoration: none;
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  height: 100vh; /* Assuming you want it to fill the entire viewport height */
+  height: 10vh; /* Assuming you want it to fill the entire viewport height */
 }
