@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allows options to wrap to the next line if needed */
+  gap: 10px; /* Adds space between options */
+}
+
+.options li {
+  flex: 1 1 calc(50% - 10px); /* Two options per row with some space between them */
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Space between rows */
+}
+
+.options button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.options button:hover {
+  background-color: #ddd;
+}
+
+.feedback {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.correct {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.incorrect {
+  background-color: #ffccbc;
+  color: #d32f2f;
+}
+
+.hide-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hide-button:hover {
+  background-color: #0056b3;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.banner {
+  align-items: flex-start;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+h3 {
+  color: yellow;
+}
+
+.color2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  border: 4px solid rgb(244, 7, 252);
+  background-color: yellow;
+}
+
+.pdf {
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+@keyframes colorTransition {
+  0% { color: blue; }
+  50% { color: red; }
+  100% { color: green; }
+}
+
+#pdf {
+  color: blue;
+  flex-shrink: 8;
+  padding: 6px;
+  box-shadow: 5px 5px 10px #d8cc1d;
+  animation: colorTransition 5s infinite;
+}
+
+a {
+  text-decoration: none;
+}
+
+.important-link {
+  color: blue;
+  text-decoration: none;
+  display: block;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Arial;
+  animation: colorTransition 5s infinite;
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.pitol {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.NOTES { 
+  text-align: center; /* Horizontal centering */
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 10vh; /* Assuming you want it to fill the entire viewport height */
+}
