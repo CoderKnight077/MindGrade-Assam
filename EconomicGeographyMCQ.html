@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,7 +115,101 @@
     
     <!-- Feedback for the fifth question, placed below its options -->
     <div id="feedback6" class="feedback"></div>
-    <button id="hideButton5" class="hide-button" style="display: none;" onclick="hideFeedback(6)">Hide Answer</button>
+    <button id="hideButton6" class="hide-button" style="display: none;" onclick="hideFeedback(6)">Hide Answer</button>
+
+    <!--Seven question starts  -->
+
+    <div class="question"></div>
+        <h4> 7. নীচের কোনটি দ্বিতীয় বৃত্তি   ?
+           </h4>
+    </div>
+    
+    <ul class="options">
+        <li><button onclick="checkAnswer(this, 7, false)"> (a) কৃষিকার্য     </button></li>
+        <li><button onclick="checkAnswer(this, 7, false)"> (b)  যাতায়াত ও পরিবহন        </button></li>
+        <li><button onclick="checkAnswer(this, 7, false)"> (c)  বিত্তিয় প্রতিষ্ঠানের সাথে জড়িত কার্য            </button></li>
+        <li><button onclick="checkAnswer(this, 7, true)"> (d)  নির্মাণ কার্য       </button></li>
+    </ul>
+    
+    <!-- Feedback for the fifth question, placed below its options -->
+    <div id="feedback7" class="feedback"></div>
+    <button id="hideButton7" class="hide-button" style="display: none;" onclick="hideFeedback(7)">Hide Answer</button>
+
+    <!-- Eighth question starts -->
+
+    <div class="question"></div>
+    <h4> 8. নীচের কোনটি মানব সৃষ্ট সম্পদ নয় ? 
+       </h4>
+</div>
+
+<ul class="options">
+    <li><button onclick="checkAnswer(this, 8, false)"> (a) প্রযুক্তি      </button></li>
+    <li><button onclick="checkAnswer(this, 8, false)"> (b)  সৌর শক্তি        </button></li>
+    <li><button onclick="checkAnswer(this, 8, false)"> (c)   উদ্যোগ            </button></li>
+    <li><button onclick="checkAnswer(this, 8, true)"> (d)  গাছ-পালা।    </button></li>
+</ul>
+
+<!-- Feedback for the fifth question, placed below its options -->
+<div id="feedback8" class="feedback"></div>
+<button id="hideButton8" class="hide-button" style="display: none;" onclick="hideFeedback(8)">Hide Answer</button>
+
+<!-- Nineth questions starts  -->
+
+<div class="question"></div>
+<h4> 8. নীচের কোনটি ব্যক্তিগত সম্পদ নয় ? 
+   </h4>
+</div>
+
+<ul class="options">
+<li><button onclick="checkAnswer(this, 9, false)"> (a) ভাল চরিত্র      </button></li>
+<li><button onclick="checkAnswer(this, 9, false)"> (b)  শিক্ষা         </button></li>
+<li><button onclick="checkAnswer(this, 9, true)"> (c)  সরকার           </button></li>
+<li><button onclick="checkAnswer(this, 9, false
+)"> (d)   কর্ম দক্ষতা   </button></li>
+</ul>
+
+<!-- Feedback for the fifth question, placed below its options -->
+<div id="feedback9" class="feedback"></div>
+<button id="hideButton9" class="hide-button" style="display: none;" onclick="hideFeedback(9)">Hide Answer</button>
+
+
+<!--  Tenth questions starts  -->
+
+<div class="question"></div>
+<h4> 8. সোনা একটি -  
+   </h4>
+</div>
+
+<ul class="options">
+<li><button onclick="checkAnswer(this, 10, false)"> (a) কৃত্রিম সম্পদ    </button></li>
+<li><button onclick="checkAnswer(this, 10, true)"> (b)  প্রাকৃতিক সম্পদ        </button></li>
+<li><button onclick="checkAnswer(this, 10,false)"> (c)  জৈবিক সম্পদ          </button></li>
+<li><button onclick="checkAnswer(this, 10, false
+)"> (d)   মানব সম্পদ  </button></li>
+</ul>
+
+<!-- Feedback for the fifth question, placed below its options -->
+<div id="feedback10" class="feedback"></div>
+<button id="hideButton10" class="hide-button" style="display: none;" onclick="hideFeedback(10)">Hide Answer</button>
+
+<!--  Eleventh questions starts  -->
+
+<div class="question"></div>
+<h4> 9.  কাজিরাঙ্গা রাষ্ট্রীয় উদ্যানটি একটি - 
+   </h4>
+</div>
+
+<ul class="options">
+<li><button onclick="checkAnswer(this, 11, false)"> (a) কৃত্রিম সম্পদ    </button></li>
+<li><button onclick="checkAnswer(this, 11, true)"> (b)  উদ্ভিদ সম্পদ        </button></li>
+<li><button onclick="checkAnswer(this, 11,false)"> (c)  জৈবিক সম্পদ          </button></li>
+<li><button onclick="checkAnswer(this, 11, false
+)"> (d)   মানব সম্পদ  </button></li>
+</ul>
+
+<!-- Feedback for the fifth question, placed below its options -->
+<div id="feedback11" class="feedback"></div>
+<button id="hideButton11" class="hide-button" style="display: none;" onclick="hideFeedback(11)">Hide Answer</button>
 
     <script>
         function checkAnswer(button, questionNumber, isCorrect) {
@@ -135,7 +230,20 @@
                 feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(a) হস্তান্তর করতে পারি না  ';
             } else if (questionNumber === 6) {
     feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d)  জর্জ সিসহোম।';
-}
+}   else if (questionNumber === 7) {
+    feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d)  নির্মাণ কার্য '; }
+
+    else if (questionNumber === 8) {
+        feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d)  গাছ-পালা। ';  }
+
+        else if (questionNumber === 9) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(c)  সরকার  '; }
+
+            else if (questionNumber === 10) {
+                feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(b)  প্রাকৃতিক সম্পদ  '; }
+
+                else if (questionNumber === 11) {
+                    feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে - (b)  উদ্ভিদ সম্পদ   ';}
 
 
             feedbackDiv.innerHTML = feedbackText;
