@@ -1,0 +1,161 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10 G/Sc Ch 11 MCQ</title>
+    <link rel="stylesheet" href="MCQclass10.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="banner">
+            <h1> ভারতের জাতীয়তাবাদের উন্মেষ  RAS  </h1>
+            <br>
+            <h3 class="sutro">SEBA ক্লাস 10 সমাজ বিজ্ঞান প্রশ্নের বাংলায় উত্তর – 2024 | বিজ্ঞান পাঠক্রমের প্রশ্ন উত্তর
+            </h3>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav id="Reasoning">
+    <h1> Reason / Assertion </h1>
+
+
+</nav>
+
+
+<!-- First question -->
+
+
+
+
+<div class="question">
+    <h4> Q. Read the following statements and choose the correct option from below 🧮
+
+        <br> <br>
+
+        1. উক্তি ১ ঃ   ১৮৩৫ সনে কোম্পানির মুদ্রার থেকে মোগল সম্রাটের নাম উথিয়ে দেওয়া হয়েছিল ।   <br>
+
+           উক্তি ২  ঃ  সেই সময় মোগল সম্রাট ছিল  আকবর ।   <br>  <h3 style="color: red;">( Half-yearly 2024, Kamrup district )</h3>
+
+
+           
+
+
+
+    </h4>
+</div>
+
+<ul class="options">
+    <li><button onclick="checkAnswer(this, 111, false)">(a) প্রথম উক্তিটি সত্য কিন্তু দ্বিতীয় উক্তিটি অসত্য
+        </button></li>
+    <li><button onclick="checkAnswer(this, 111, false)">(b) প্রথম ও দ্বিতীয় উক্তি দুটিই অসত্য </button></li>
+    <li><button onclick="checkAnswer(this, 111, false)">(c)
+            প্রথম উক্তিটি অসত্য কিন্তু দ্বিতীয় উক্তিটি সত্য </button></li>
+    <li><button onclick="checkAnswer(this, 111, true)">(d) প্রথম  উক্তিটিই  সত্য </button></li>
+</ul>
+
+<!-- Feedback for the first question, placed below its options -->
+<div id="feedback111" class="feedback"></div>
+<button id="hideButton111" class="hide-button" style="display: none;" onclick="hideFeedback(111)">Hide
+    Answer</button>
+
+<!-- Second question -->
+<div class="question">
+    <h4>2.  
+
+        দাবি :  ভারত সরকার আইন ব্রিটিশ সংসদে ১৮৫৮ সনে প্রণয়ন করেছিল<br> <br> <br>
+        যুক্তি : শাসনের ক্ষমতা কোম্পানির হাতের থেকে ইংল্যান্ডের সরকারের হাতে গিয়েছিল <h3 style="color: red;">( Half-yearly 2024, Kamrup district )</h3>
+
+
+
+    </h4>
+</div>
+
+<ul class="options">
+    <li><button onclick="checkAnswer(this, 222, true)">(a)  প্রথম ও দ্বিতীয় উক্তি দুটিই সত্যি  </button>
+    </li>
+    <li><button onclick="checkAnswer(this, 222, false)">(b) প্রথম উক্তিটি সত্য কিন্তু দ্বিতীয় উক্তিটি অসত্য
+        </button></li>
+    <li><button onclick="checkAnswer(this, 222, false)">(c) প্রথম ও দ্বিতীয় উক্তি দুটিই অসত্য </button></li>
+    <li><button onclick="checkAnswer(this, 222, false)">(d) প্রথম উক্তিটি অসত্য কিন্তু দ্বিতীয় উক্তিটি সত্য 
+</ul>
+</button></li>
+</ul>
+
+<!-- Feedback for the second question, placed below its options -->
+<div id="feedback222" class="feedback"></div>
+<button id="hideButton222" class="hide-button" style="display: none;" onclick="hideFeedback(222)">Hide
+    Answer</button>
+
+
+<script>
+    function checkAnswer(button, questionNumber, isCorrect) {
+        const feedbackDiv = document.getElementById(`feedback${questionNumber}`);
+        const hideButton = document.getElementById(`hideButton${questionNumber}`);
+        let feedbackText = '';
+
+        // Feedback logic for each question
+        if (questionNumber === 111) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d)  প্রথম  উক্তিটিই  সত্য';
+        } else if (questionNumber === 222) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(a) প্রথম ও দ্বিতীয় উক্তি দুটিই সত্যি   ';
+        } else if (questionNumber === 333) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(b)   প্রথম উক্তিটি সত্য কিন্তু দ্বিতীয় উক্তিটি অসত্য ';
+        } else if (questionNumber === 444) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(c)  প্রথম ও দ্বিতীয় উক্তি দুটিই সত্য';
+        } else if (questionNumber === 555) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(a) হস্তান্তর করতে পারি না  ';
+        } else if (questionNumber === 666) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d) প্রথম উক্তিটি সত্য কিন্তু দ্বিতীয় উক্তিটি অসত্য ।';
+        } else if (questionNumber === 777) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d) প্রথম ও দ্বিতীয় উক্তি দুটিই সত্যি | ';
+        }
+
+        else if (questionNumber === 888) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(d)  প্রথম ও দ্বিতীয় উক্তি দুটিই সত্যি | ';
+        }
+
+        else if (questionNumber === 999) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(c)   প্রথম উক্তিটি সত্য কিন্তু দ্বিতীয় উক্তিটি অসত্য  ';
+        }
+
+        else if (questionNumber === 1000) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে -(b)  প্রথম উক্তিটি অসত্য কিন্তু দ্বিতীয় উক্তিটি সত্য  ';
+        }
+
+        else if (questionNumber === 1111) {
+            feedbackText = isCorrect ? 'শুদ্ধ ✔️' : 'অশুদ্ধ। শুদ্ধ উত্তরটি হবে - (b) প্রথম ও দ্বিতীয় উক্তি দুটিই সত্যি  ';
+        }
+
+
+        feedbackDiv.innerHTML = feedbackText;
+        feedbackDiv.style.display = 'block';
+        hideButton.style.display = 'inline-block';
+    }
+
+    function hideFeedback(questionNumber) {
+        const feedbackDiv = document.getElementById(`feedback${questionNumber}`);
+        const hideButton = document.getElementById(`hideButton${questionNumber}`);
+
+        feedbackDiv.style.display = 'none';
+        hideButton.style.display = 'none';
+    }
+</script>
