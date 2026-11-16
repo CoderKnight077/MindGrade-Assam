@@ -13,3 +13,17 @@ The homepage is static and the `/api/chat` function makes requests to OpenAI usi
 ## Responsive layout
 
 The homepage includes a collapsible navigation menu, responsive subject and feature cards, and a study helper that adapts to narrow screens.
+
+## Brand palette
+
+Every HTML page loads `brand.css` after its page stylesheet to apply the shared Aspirants Academy palette across English- and Bengali-medium study materials:
+
+- Primary black: `#101010`
+- White: `#FFFFFF`
+- Academic gold: `#D4A72C`
+- Background: `#F4F4F5`
+- Dark surface: `#27272A`
+- Secondary text: `#71717A`
+- Borders: `#E4E4E7`
+
+The design uses white as the primary content background, black for navigation and buttons, and gold sparingly for emphasis and active states.

@@ -52,6 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  document.querySelectorAll(".ai-open-helper").forEach(function (button) {
+    button.addEventListener("click", function () {
+      questionInput.value = button.dataset.question;
+      setOpen(true);
+    });
+  });
+
   questionInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter" && !event.shiftKey) {
       event.preventDefault();
