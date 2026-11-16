@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,6 +114,79 @@
     <!-- Feedback for the fifth question, placed below its options -->
     <div id="feedback6" class="feedback"></div>
     <button id="hideButton5" class="hide-button" style="display: none;" onclick="hideFeedback(6)">Hide Answer</button>
+
+
+    <!--  Seventh question starts from here   -->
+
+        <!-- Third question -->
+        <div class="question">
+            <h4> 7. একটি শাক-সব্জির বাক্সে গাজর , আলু , মুলা এবং টমেটো আছে । এদের মধ্যে কোন জোড়াটি শুদ্ধ সমসংশ অঙ্গ গঠনের উপস্থাপন করে -   -</h4>
+        </div>
+        
+        <ul class="options">
+            <li><button onclick="checkAnswer(this, 3, false)">(a) প্রজাতিকরণ</button></li>
+            <li><button onclick="checkAnswer(this, 3, false)">(b) ক্রমবিকাশ</button></li>
+            <li><button onclick="checkAnswer(this, 3, false)">(c) বংশানুক্রম</button></li>
+            <li><button onclick="checkAnswer(this, 3, true)">(d) বিভিন্নতা</button></li>
+        </ul>
+        
+        <!-- Feedback for the third question, placed below its options -->
+        <div id="feedback3" class="feedback"></div>
+        <button id="hideButton3" class="hide-button" style="display: none;" onclick="hideFeedback(3)">Hide Answer</button>
+    
+        <!-- Fourth question -->
+        <div class="question">
+            <h4>8.নীচের কোন অঙ্গগুলো সমবৃত্তি ?   -</h4>
+        </div>
+        
+        <ul class="options">
+            <li><button onclick="checkAnswer(this, 4, false)">(a) পাতার কাঁটা ও পাতার আকর্ষি          </button></li>
+            <li><button onclick="checkAnswer(this, 4, true)">(b) ব্যাঙের সামনের পা ও মানুষের বাহু </button></li>
+            <li><button onclick="checkAnswer(this, 4, false)">(c)  তিমির পাখনা ও ঘোড়ার ঠেং                    </button></li>
+            <li><button onclick="checkAnswer(this, 4, false)">(d) পোকামাকড়ের ডানা ও চামচিকার ডানা          </button></li>
+        </ul>
+        
+        <!-- Feedback for the fourth question, placed below its options -->
+        <div id="feedback4" class="feedback"></div>
+        <button id="hideButton4" class="hide-button" style="display: none;" onclick="hideFeedback(4)">Hide Answer</button>
+    
+        <!--  Fifth question  -->
+        <div class="question">
+            <h4> 5. নিচের কোন প্রক্রিয়ায় জিনীয় পদার্থের বিনিময় ঘটে? </h4>
+        </div>
+        
+        <ul class="options">
+            <li><button onclick="checkAnswer(this, 5, true)">(a) যৌন প্রজনন</button></li>
+            <li><button onclick="checkAnswer(this, 5, false)">(b) মুকুলোদগম</button></li>
+            <li><button onclick="checkAnswer(this, 5, false)">(c) অযৌন প্রজনন</button></li>
+            <li><button onclick="checkAnswer(this, 5, false)">(d) অঙ্গজ প্রজনন</button></li>
+        </ul>
+        
+        <!-- Feedback for the fifth question, placed below its options -->
+        <div id="feedback5" class="feedback"></div>
+        <button id="hideButton5" class="hide-button" style="display: none;" onclick="hideFeedback(5)">Hide Answer</button>
+    
+        <!--  Sixth question starts  -->
+    
+        <div class="question">
+            <h4> 6. একটি যোজন কোষে থাকা x- ক্রোমোজোমে পিতৃ থেকে বংশগতি সূত্রে স্থানান্তরিত হয়েছে। তবে যোজন কোষের থেকে কোন প্রকারের সন্তানের জন্ম হবে ---
+               </h4>
+        </div>
+        
+        <ul class="options">
+            <li><button onclick="checkAnswer(this, 6, false)"> (a) ছেলে </button></li>
+            <li><button onclick="checkAnswer(this, 6, true)"> (b)মেয়ে</button></li>
+            <li><button onclick="checkAnswer(this, 6, false)"> (c) ছেলে বা মেয়ে</button></li>
+            <li><button onclick="checkAnswer(this, 6, false)"> (d) x- ক্রোমোজোম  শিশুর লিঙ্গ নির্ধারণ করে না</button></li>
+        </ul>
+        
+        <!-- Feedback for the fifth question, placed below its options -->
+        <div id="feedback6" class="feedback"></div>
+        <button id="hideButton5" class="hide-button" style="display: none;" onclick="hideFeedback(6)">Hide Answer</button>
+
+
+
+        <!--  seventh question ends here  -->
 
     <script>
         function checkAnswer(button, questionNumber, isCorrect) {

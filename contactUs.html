@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Aspirants Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(180deg, #081827 0%, #112a44 100%);
+      color: #edf6ff;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 20px;
+    }
+
+    #contact-us {
+      width: min(900px, 100%);
+      background: rgba(12, 25, 38, 0.9);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+    }
+
+    h2 {
+      color: #ffb11f;
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    p {
+      color: #d0dff3;
+      font-size: 1.05rem;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    label {
+      color: #edf6ff;
+      font-weight: 600;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.02);
+      color: #edf6ff;
+      font: inherit;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #a4bad0;
+    }
+
+    button {
+      width: fit-content;
+      margin: 0 auto;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #ffb11f, #ff8a00);
+      color: #111827;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .back-link {
+      margin-top: 22px;
+      text-align: center;
+    }
+
+    .back-link a {
+      color: #6ee7b7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <section id="contact-us">
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you. Reach out anytime for notes, support, or academic guidance.</p>
+
+    <form action="your_form_submission_script_here" method="POST">
+      <div class="field">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="field">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message" rows="6" required></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="back-link"><a href="index.html">← Back to home</a></div>
+  </section>
+</body>
+</html>

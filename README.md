@@ -1,1 +1,1 @@
-# MindGrade-Assam
+# Aspirants Academy
